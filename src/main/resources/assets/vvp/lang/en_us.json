@@ -39,6 +39,7 @@
   "entity.vvp.pautina": "Pautina",
   "entity.vvp.fmtv": "FMTV",
   "entity.vvp.varta": "Varta",
+  "entity.vvp.varta_obj": "Varta OBJ",
   "entity.vvp.varta_ptrk": "Varta PTRK",
   "item.vvp.multicamhelmet": "ACH Helmet USA",
   "item.vvp.multicamchest": "Body Armor USA",
@@ -153,5 +154,6 @@
   "item.vvp.d30_item": "D-30 Howitzer",
   "item.vvp.shell_122mm": "122mm HE Shell",
   "item.vvp.shell_122mm_casing": "122mm Empty Casing",
-  "weapon.vvp.d30": "D-30 122mm %s"
+  "weapon.vvp.d30": "D-30 122mm %s",
+  "item.vvp.varta_obj": "Varta OBJ Deployer"
 }

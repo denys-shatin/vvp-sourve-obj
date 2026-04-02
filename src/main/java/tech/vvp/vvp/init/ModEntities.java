@@ -98,6 +98,9 @@ public class ModEntities {
     public static final RegistryObject<EntityType<VartaEntity>> VARTA = register("varta",
             EntityType.Builder.of(VartaEntity::new, MobCategory.MISC).setTrackingRange(512).setUpdateInterval(1).fireImmune().sized(3f, 3.5f));
 
+    public static final RegistryObject<EntityType<VartaObjEntity>> VARTA_OBJ = register("varta_obj",
+            EntityType.Builder.of(VartaObjEntity::new, MobCategory.MISC).setTrackingRange(512).setUpdateInterval(1).fireImmune().sized(3f, 3.5f));
+
     public static final RegistryObject<EntityType<VartaPTRKEntity>> VARTA_PTRK = register("varta_ptrk",
             EntityType.Builder.of(VartaPTRKEntity::new, MobCategory.MISC).setTrackingRange(512).setUpdateInterval(1).fireImmune().sized(3f, 3.5f));
 

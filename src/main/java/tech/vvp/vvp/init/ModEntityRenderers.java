@@ -37,6 +37,7 @@ public class ModEntityRenderers {
         event.registerEntityRenderer(ModEntities.BMP_2M.get(), Bmp2MRenderer::new);
         event.registerEntityRenderer(ModEntities.URAL.get(), UralRenderer::new);
         event.registerEntityRenderer(ModEntities.VARTA.get(), VartaRenderer::new);
+        event.registerEntityRenderer(ModEntities.VARTA_OBJ.get(), VartaObjRenderer::new);
         event.registerEntityRenderer(ModEntities.PANTSIR_S1.get(), PantsirS1Renderer::new);
         event.registerEntityRenderer(ModEntities.KORNET.get(), KornetRenderer::new);
         event.registerEntityRenderer(ModEntities.AGS_30.get(), Ags30Renderer::new);
