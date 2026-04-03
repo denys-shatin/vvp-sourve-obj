@@ -28,7 +28,7 @@ public class VartaObjRenderer extends ObjVehicleRenderer<VartaObjEntity> {
 
     @Override
     protected void applyVehicleTransforms(VartaObjEntity entity, PoseStack poseStack,
-                                          float entityYaw, float partialTicks) {
+            float entityYaw, float partialTicks) {
         poseStack.translate(0, 0.5, 0); // Поднимаем корпус
     }
 
@@ -39,10 +39,12 @@ public class VartaObjRenderer extends ObjVehicleRenderer<VartaObjEntity> {
 
     @Override
     protected void renderAdditionalModels(VartaObjEntity entity, PoseStack poseStack, MultiBufferSource bufferSource,
-                                          int packedLight, int packedOverlay, float partialTick) {
+            int packedLight, int packedOverlay, float partialTick) {
 
-        if (wheelModel == null || !wheelModel.isLoaded()) return;
+        if (wheelModel == null || !wheelModel.isLoaded())
+            return;
 
+        // Из-за того что геометрия сломана, возвращаю пока старую текстуру
         VertexConsumer vertexConsumer = bufferSource.getBuffer(RenderType.entityCutoutNoCull(TEXTURE));
 
         // Плавные значения
@@ -63,7 +65,7 @@ public class VartaObjRenderer extends ObjVehicleRenderer<VartaObjEntity> {
     }
 
     private void renderWheel(PoseStack poseStack, VertexConsumer buffer, int light, int overlay,
-                             float x, float y, float z, float spinAngle, float steerAngle) {
+            float x, float y, float z, float spinAngle, float steerAngle) {
         poseStack.pushPose();
 
         // 1. Позиция колеса

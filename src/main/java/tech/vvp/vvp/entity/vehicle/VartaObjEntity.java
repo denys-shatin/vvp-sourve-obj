@@ -57,7 +57,8 @@ public class VartaObjEntity extends VehicleEntity implements GeoAnimatable {
             if (yawDelta < -180) yawDelta += 360;
 
             // Умножаем на 15.0f, чтобы получить угол поворота колес (макс 45 градусов)
-            float targetSteer = net.minecraft.util.Mth.clamp(yawDelta * 15.0f, -45.0f, 45.0f);
+            // ИНВЕРТИРОВАНО (минус перед yawDelta), чтобы колеса крутились в ту же сторону, куда поворачивает корпус
+            float targetSteer = net.minecraft.util.Mth.clamp(-yawDelta * 15.0f, -45.0f, 45.0f);
 
             // Если машина стоит, руль плавно возвращается в центр
             if (distance < 0.01f) targetSteer = 0;
