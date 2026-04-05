@@ -2,6 +2,7 @@
   "entity.vvp.mi_24": "Mil Mi-24",
   "entity.vvp.cobra": "AH-1Z",
   "entity.vvp.mi_28": "Mi-28N",
+  "entity.vvp.ka_52": "Ka-52",
 
   "entity.vvp.btr_80a": "BTR-80A",
   "entity.vvp.stryker": "Stryker M1128",
@@ -23,6 +24,7 @@
   "entity.vvp.bmp_2m": "BMP-2M",
   "entity.vvp.chryzantema": "9M123",
   "entity.vvp.nh_90": "NH-90",
+  "entity.vvp.uh_1": "UH-1 Huey",
   "entity.vvp.puma": "PUMA VJTF",
   "entity.vvp.bushmaster": "Bushmaster",
   "entity.vvp.toyota": "Toyota",
@@ -155,5 +157,7 @@
   "item.vvp.shell_122mm": "122mm HE Shell",
   "item.vvp.shell_122mm_casing": "122mm Empty Casing",
   "weapon.vvp.d30": "D-30 122mm %s",
+  "item.vvp.ka_52": "Ka-52 Deployer",
+  "item.vvp.uh_1": "UH-1 Huey Deployer",
   "item.vvp.varta_obj": "Varta OBJ Deployer"
 }

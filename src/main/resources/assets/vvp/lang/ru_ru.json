@@ -118,4 +118,10 @@
   "item.vvp.d30_item": "Гаубица Д-30",
   "item.vvp.shell_122mm": "122мм ОФ снаряд",
   "item.vvp.shell_122mm_casing": "Пустая гильза 122мм"
+  ,
+  "entity.vvp.uh_1": "UH-1 Хьюи",
+  "item.vvp.uh_1": "UH-1 Хьюи"
+  ,
+  "entity.vvp.ka_52": "КА-52",
+  "item.vvp.ka_52": "КА-52"
 }

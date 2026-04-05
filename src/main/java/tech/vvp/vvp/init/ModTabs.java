@@ -40,6 +40,7 @@ public class ModTabs {
                 output.accept(ContainerBlockItem.createInstance(ModEntities.FMTV.get()));
                 output.accept(ContainerBlockItem.createInstance(ModEntities.AH_64.get()));
                 output.accept(ContainerBlockItem.createInstance(ModEntities.COBRA.get()));
+                output.accept(ContainerBlockItem.createInstance(ModEntities.UH_1.get()));
 
             })
             .build());
@@ -66,6 +67,7 @@ public class ModTabs {
                         output.accept(ContainerBlockItem.createInstance(ModEntities.MI_28.get()));
                         output.accept(ContainerBlockItem.createInstance(ModEntities.MI_24.get()));
                         output.accept(ContainerBlockItem.createInstance(ModEntities.MI_8.get()));
+                        output.accept(ContainerBlockItem.createInstance(ModEntities.KA_52.get()));
 
                     })
                     .build());

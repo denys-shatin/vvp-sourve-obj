@@ -135,6 +135,12 @@ public class ModItems {
     public static final RegistryObject<Item> NH_90 = REGISTRY.register("nh_90",
             () -> new tech.vvp.vvp.item.VehicleSpawnItem(ModEntities.NH_90::get, new Item.Properties().stacksTo(1)));
 
+    public static final RegistryObject<Item> UH_1 = REGISTRY.register("uh_1",
+            () -> new tech.vvp.vvp.item.VehicleSpawnItem(ModEntities.UH_1::get, new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> KA_52 = REGISTRY.register("ka_52",
+            () -> new tech.vvp.vvp.item.VehicleSpawnItem(ModEntities.KA_52::get, new Item.Properties().stacksTo(1)));
+
     public static final RegistryObject<Item> VARTA_OBJ = REGISTRY.register("varta_obj",
             () -> new tech.vvp.vvp.item.VehicleSpawnItem(ModEntities.VARTA_OBJ::get, new Item.Properties().stacksTo(1)));
 

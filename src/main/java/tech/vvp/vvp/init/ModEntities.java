@@ -134,6 +134,12 @@ public class ModEntities {
     public static final RegistryObject<EntityType<Nh90Entity>> NH_90 = register("nh_90",
             EntityType.Builder.of(Nh90Entity::new, MobCategory.MISC).setTrackingRange(512).setUpdateInterval(1).fireImmune().sized(4f, 4f));
 
+    public static final RegistryObject<EntityType<Uh1Entity>> UH_1 = register("uh_1",
+            EntityType.Builder.of(Uh1Entity::new, MobCategory.MISC).setTrackingRange(512).setUpdateInterval(1).fireImmune().sized(4f, 4f));
+
+    public static final RegistryObject<EntityType<Ka52Entity>> KA_52 = register("ka_52",
+            EntityType.Builder.of(Ka52Entity::new, MobCategory.MISC).setTrackingRange(512).setUpdateInterval(1).fireImmune().sized(4f, 4f));
+
     public static final RegistryObject<EntityType<OplotEntity>> OPLOT = register("oplot",
             EntityType.Builder.of(OplotEntity::new, MobCategory.MISC).setTrackingRange(512).setUpdateInterval(1).fireImmune().sized(4f, 4f));
 
